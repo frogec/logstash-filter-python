@@ -8,12 +8,13 @@ This plugin executes python script from logstash. It takes in three parameters:
 
 Example:
 
+```sh
 python{
 		path => "C:/Users/ngutnik/PycharmProjects/updateContractLogstash/updateContract.py"
 		parameters_field_name => "object_id"
 		result_field_name => "difference_contracts"
 	}
-
+```
 
 
 
