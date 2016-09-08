@@ -2,9 +2,11 @@
 
 This plugin executes python script from logstash. It takes in three parameters:
 
--path -> path to your python script
--parameters_field_name -> field name where the script parameter/s is/are, for instance "object_id"
--result_field_name -> name of the field where script results are stored
+-path -> path to your python script.
+
+-parameters_field_name -> field name where the script parameter/s is/are, for instance "object_id".
+
+-result_field_name -> name of the field where script results are stored.
 
 Example:
 
