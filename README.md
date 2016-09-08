@@ -1,3 +1,22 @@
+#Logstash Python Plugin
+
+This plugin executes python script from logstash. It takes in three parameters:
+
+-path -> path to your python script
+-parameters_field_name -> field name where the script parameter/s is/are, for instance "object_id"
+-result_field_name -> name of the field where script results are stored
+
+Example:
+
+python{
+		path => "C:/Users/ngutnik/PycharmProjects/updateContractLogstash/updateContract.py"
+		parameters_field_name => "object_id"
+		result_field_name => "difference_contracts"
+	}
+
+
+
+
 # Logstash Plugin
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
