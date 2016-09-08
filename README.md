@@ -1,6 +1,6 @@
 #Logstash Python Plugin
 
-This plugin executes python script from logstash. It takes in three parameters:
+This plugin executes python script from logstash and appends it's output to the events field. It takes in three parameters:
 
 -path -> path to your python script.
 
